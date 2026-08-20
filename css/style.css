@@ -12,8 +12,8 @@
   --ink-faint: #6f6a60;
   --line: #2e2b25;
   --line-soft: #211f1b;
-  --accent: #ff7722;
-  --accent-dim: rgba(255,119,34,.13);
+  --accent: #5fa896;
+  --accent-dim: rgba(95,168,150,.14);
 
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -135,10 +135,10 @@ body {
 .btn-primary {
   background: var(--accent);
   border-color: var(--accent);
-  color: #140b04;
+  color: #0a120f;
   font-weight: 600;
 }
-.btn-primary:hover { background: #ff8b3d; border-color: #ff8b3d; color: #140b04; }
+.btn-primary:hover { background: #6fb3a2; border-color: #6fb3a2; color: #0a120f; }
 
 .cta-block { margin-top: 42px; }
 .cta-micro {
