@@ -218,14 +218,14 @@ function renderFullReport() {
       '<p class="fs-num">01 — YOUR CORE PATTERN</p>' +
       '<h3 class="fs-title">' + p.name + '</h3>' +
       '<p class="body">' + p.desc + '</p>' +
-      '<p class="body"><strong>Pattern strength ' + r.strength + '%.</strong> Pola sekunder lo cenderung ke arah ' + s.name + ' — tapi sinyal yang paling dominan jelas ke ' + p.name + '.</p>' +
+      '<p class="body"><strong>Pattern strength ' + r.strength + '%.</strong> Pola sekunder kamu cenderung ke arah ' + s.name + ' — tapi sinyal yang paling dominan jelas ke ' + p.name + '.</p>' +
     '</section>' +
 
     '<section class="full-sec">' +
       '<p class="fs-num">02 — YOUR REPEATING LOOP</p>' +
       '<h3 class="fs-title">Begini loop-nya berputar.</h3>' +
       '<div class="loop-full">' + loopFull + '</div>' +
-      '<p class="body">Loop ini bukan sesuatu yang terjadi pada lo. Ini sesuatu yang lo jalani — dan selama belum diputus, dia bakal terus berputar.</p>' +
+      '<p class="body">Loop ini bukan sesuatu yang terjadi pada kamu. Ini sesuatu yang kamu jalani — dan selama belum diputus, dia akan terus berputar.</p>' +
     '</section>' +
 
     '<section class="full-sec">' +
@@ -236,20 +236,20 @@ function renderFullReport() {
 
     '<section class="full-sec">' +
       '<p class="fs-num">04 — YOUR BLIND SPOT</p>' +
-      '<h3 class="fs-title">Bagian yang gak lo lihat.</h3>' +
+      '<h3 class="fs-title">Bagian yang tidak kamu lihat.</h3>' +
       '<p class="fs-highlight">' + p.blind_spot + '</p>' +
     '</section>' +
 
     '<section class="full-sec">' +
       '<p class="fs-num">05 — YOUR BREAKING POINT</p>' +
-      '<h3 class="fs-title">Di sinilah lo bisa memutusnya.</h3>' +
+      '<h3 class="fs-title">Di sinilah kamu bisa memutusnya.</h3>' +
       '<p class="body">Jangan coba mengubah seluruh pola sekaligus. Ubah satu keputusan — tepat di titik yang paling strategis.</p>' +
       '<p class="fs-highlight">' + p.breaking_point + '</p>' +
     '</section>' +
 
     '<section class="full-sec">' +
       '<p class="fs-num">06 — YOUR NEW PATTERN</p>' +
-      '<h3 class="fs-title">Ganti satu kalimat di kepala lo.</h3>' +
+      '<h3 class="fs-title">Ganti satu kalimat di kepala kamu.</h3>' +
       '<div class="oldnew">' +
         '<div class="row"><span class="tag">OLD</span><span class="old">' + p.new_old + '</span></div>' +
         '<div class="row"><span class="tag">NEW</span><span class="new">' + p.new_new + '</span></div>' +
@@ -276,23 +276,23 @@ function buildProtocol(p) {
     { name: 'Awareness', w: 'WEEK 1',
       obj: 'Kenali trigger-mu: <em>' + trigger.toLowerCase() + '</em>.',
       beh: 'Catat tiap kali dorongan lama muncul — tanpa menghakimi, tanpa mengubah apa pun dulu.',
-      ref: 'Kapan lo paling sering masuk ke loop ini? Apa yang terjadi tepat sebelumnya?',
+      ref: 'Kapan kamu paling sering masuk ke loop ini? Apa yang terjadi tepat sebelumnya?',
       act: 'Tulis 3 kejadian minggu ini di mana pola lama muncul.' },
     { name: 'Interruption', w: 'WEEK 2',
       obj: 'Putus loop di titik breaking point-mu.',
       beh: 'Begitu sadar sedang masuk loop, pause 10 detik. Jangan langsung merespons.',
-      ref: 'Apa yang mau lo lakukan vs. apa yang biasanya lo lakukan?',
+      ref: 'Apa yang mau kamu lakukan vs. apa yang biasanya kamu lakukan?',
       act: 'Ganti satu respons lama hari ini — sekali saja dulu.' },
     { name: 'Replacement', w: 'WEEK 3',
       obj: 'Pasang respons baru: <em>' + p.new_new + '</em>',
       beh: 'Praktik respons baru minimal sekali sehari, sekecil apa pun.',
-      ref: 'Apa bedanya hasil yang lo rasakan?',
+      ref: 'Apa bedanya hasil yang kamu rasakan?',
       act: 'Catat satu kemenangan kecil tiap hari.' },
     { name: 'Stabilization', w: 'WEEK 4',
-      obj: 'Kunci pola baru supaya gak balik lagi.',
-      beh: 'Review ulang sebulan penuh: kapan lo nyaris balik ke pola lama?',
-      ref: 'Kapan lo kembali ke pola lama, dan kenapa?',
-      act: 'Buat satu aturan 1 kalimat buat diri lo sendiri — dan pegang itu.' },
+      obj: 'Kunci pola baru supaya tidak kembali lagi.',
+      beh: 'Review ulang sebulan penuh: kapan kamu nyaris kembali ke pola lama?',
+      ref: 'Kapan kamu kembali ke pola lama, dan kenapa?',
+      act: 'Buat satu aturan 1 kalimat buat diri kamu sendiri — dan pegang itu.' },
   ];
   return weeks.map(wk =>
     '<div class="week">' +
