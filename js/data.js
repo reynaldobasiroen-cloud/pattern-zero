@@ -10,7 +10,7 @@ const CONFIG = {
   tagline: "Find the pattern. Break the cycle.",
   priceLabel: "Rp49.000",
   priceAmount: 49000,
-  questionsPerArea: 16,        // display target (bisa beda dari panjang bank)
+  questionsPerArea: 16,        // display target (bisa berbeda dari panjang bank)
 };
 
 /* ---------- AREA MAPPING ---------- */
@@ -284,7 +284,7 @@ const PATTERNS = {
       lines: [
         "Kamu sebenarnya sudah tahu apa yang salah.",
         "Tapi tahu saja tidak mengubah apa pun.",
-        "Kamu merespons masalah yang sama dengan cara yang sama — dan berharap hasilnya beda.",
+        "Kamu merespons masalah yang sama dengan cara yang sama — dan berharap hasilnya berbeda.",
       ],
       loop_short: ["TRIGGER: MASALAH SAMA", "'TAHU TAPI...'", "RESPONS LAMA", "HASIL SAMA", "FRUSTRASI", "REPEAT"],
       loop_full: ["MASALAH SAMA MUNCUL", "SADAR POLANYA", "'TAHU TAPI...'", "RESPONS LAMA", "HASIL SAMA", "FRUSTRASI", "PERCAYA: 'SAYA MEMANG BEGINI'", "MASALAH MUNCUL LAGI"],

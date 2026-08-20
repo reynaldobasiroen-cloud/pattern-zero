@@ -286,7 +286,7 @@ function buildProtocol(p) {
     { name: 'Replacement', w: 'WEEK 3',
       obj: 'Pasang respons baru: <em>' + p.new_new + '</em>',
       beh: 'Praktik respons baru minimal sekali sehari, sekecil apa pun.',
-      ref: 'Apa bedanya hasil yang kamu rasakan?',
+      ref: 'Apa perbedaan hasil yang kamu rasakan?',
       act: 'Catat satu kemenangan kecil tiap hari.' },
     { name: 'Stabilization', w: 'WEEK 4',
       obj: 'Kunci pola baru supaya tidak kembali lagi.',
